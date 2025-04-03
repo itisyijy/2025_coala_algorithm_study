@@ -2,6 +2,9 @@
 
 [Do it! 알고리즘 코딩테스트 with JAVA](https://www.inflearn.com/course/%EB%91%90%EC%9E%87-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%B0%94#curriculum)
 
+Hyunmin's link 
+[Hyunmin's blog](https://hyunmin43240.tistory.com/)
+
 ## 참고사항
 - 백준에 코드 제출하기! ... 메모리 및 실행 시간 확인해보기 위함!
 - 각자 브랜치 만들어서 자신의 폴더에 코드 저장해서 공유하기!
