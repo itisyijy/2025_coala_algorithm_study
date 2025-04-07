@@ -11,30 +11,23 @@
 ## 커리큘럼
 | 주차 | 주제 | 추천 문제 |
 | - | - | - |
-| 4주차 | 스택 & 큐 ① |[1874](https://www.acmicpc.net/problem/1874), [2164](https://www.acmicpc.net/problem/2164)
+| 4주차 (3.30) | 스택 & 큐 ① |[1874](https://www.acmicpc.net/problem/1874), [2164](https://www.acmicpc.net/problem/2164)
 |  | 탐욕 알고리즘 | [11047](https://www.acmicpc.net/problem/11047), [1541](https://www.acmicpc.net/problem/1541)
-| 5주차 | 스택 & 큐 ② + 힙 | [11286](https://www.acmicpc.net/problem/11286), [1966](https://www.acmicpc.net/problem/1966)
+| 5주차 (4.3) | 스택 & 큐 ② + 힙 | [11286](https://www.acmicpc.net/problem/11286), [1966](https://www.acmicpc.net/problem/1966)
 |  | 정수론 | [1929](https://www.acmicpc.net/problem/1929), [1850](https://www.acmicpc.net/problem/1850)
-| 6주차 | 정렬 알고리즘 기초 |[2750](https://www.acmicpc.net/problem/2750), [1427](https://www.acmicpc.net/problem/1427)
-|  | 그래프 I (DFS/BFS) |[11724](https://www.acmicpc.net/problem/11724), [1707](https://www.acmicpc.net/problem/1707)
-| 7주차 | 탐색 (DFS/BFS) ① |[11724](https://www.acmicpc.net/problem/11724), [1260](https://www.acmicpc.net/problem/1260)
-|  | 그래프 II (최단경로) |[1753](https://www.acmicpc.net/problem/1753), [1916](https://www.acmicpc.net/problem/1916)
-| 8주차 | 탐색 ② + 이진탐색 |[1920](https://www.acmicpc.net/problem/1920), [10815](https://www.acmicpc.net/problem/10815)
-|  | 그래프 III (MST / 위상정렬) |[1197](https://www.acmicpc.net/problem/1197), [2252](https://www.acmicpc.net/problem/2252)
-| 9주차 | 투포인터 / 슬라이딩 윈도우 |[2018](https://www.acmicpc.net/problem/2018), [12891](https://www.acmicpc.net/problem/12891)
-|  | 트리 (LCA / 세그트리) |[11437](https://www.acmicpc.net/problem/11437), [2042](https://www.acmicpc.net/problem/2042)
-| 10주차 | 정수론 기초 | [1929](https://www.acmicpc.net/problem/1929), [1978](https://www.acmicpc.net/problem/1978)
-|  | 조합 / 백트래킹 |[11050](https://www.acmicpc.net/problem/11050), [1182](https://www.acmicpc.net/problem/1182)
-| 11주차 | 탐욕 알고리즘 입문 |[11047](https://www.acmicpc.net/problem/11047), [1541](https://www.acmicpc.net/problem/1541)
-|  | DP I (기초) |[11726](https://www.acmicpc.net/problem/11726), [9095](https://www.acmicpc.net/problem/9095)
-| 12주차 | 조합 / 부분집합 기초 |[11050](https://www.acmicpc.net/problem/11050), [1010](https://www.acmicpc.net/problem/1010)
-|  | DP II (응용) |[12865](https://www.acmicpc.net/problem/12865), [11053](https://www.acmicpc.net/problem/11053)
+| 6주차 (4.8) | Travelsal of Graph | [Roads and Libraries](https://www.hackerrank.com/challenges/torque-and-development/problem?isFullScreen=true)
+| | Travelsal of Graph | [Journey to the Moon](https://www.hackerrank.com/challenges/journey-to-the-moon/problem?isFullScreen=true)
+| | Travelsal of Graph | [Synchronous Shopping](https://www.hackerrank.com/challenges/synchronous-shopping/problem?isFullScreen=true)
+| 7주차 | Minimum Spanning Tree |
+| 8주차 | MID-TERM |
+| 9주차 | Brute-force Algorithm |
+| 10주차 | Greedy Algorithm |
+| 11주차 | Divide and Conquer |
+| 12주차 | Dynamic Programming |
 
 
 # 특이사항
 ## Week04
-
-## Week05
 
 ## Week05
 
