@@ -1,0 +1,54 @@
+/*
+     * Complete the 'bfs' function below.
+     *
+     * The function is expected to return an INTEGER_ARRAY.
+     * The function accepts following parameters:
+     *  1. INTEGER n node
+     *  2. INTEGER m edge
+     *  3. 2D_INTEGER_ARRAY edges
+     *  4. INTEGER s start node num
+     */
+
+    public static List<Integer> bfs(int n, int m, List<List<Integer>> edges, int s) {
+        //Adjacent list
+        List<List<Integer>> graph = new ArrayList<>();
+        for (int i = 0; i <= n; i++) {
+            //vertex index start from 1
+            graph.add(new ArrayList<>());
+        }
+        //connect edge
+        for (List<Integer> edge : edges) {
+            int u = edge.get(0);
+            int v = edge.get(1);
+            graph.get(u).add(v); 
+            // Add vertex v to the adjacency list of vertex u
+            graph.get(v).add(u);
+            //graph.get means 'neighber vertex's list'
+            //graph.add means add new list to the list
+            //two side becuz it's indirect graph
+        }
+        
+        int[] distance = new int[n + 1];
+        Arrays.fill(distance, -1);
+        distance[s] = 0; //start point
+        
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(s);
+
+        while (!queue.isEmpty()) {
+            int curr = queue.poll();
+            for (int next : graph.get(curr)) {//
+                if (distance[next] == -1) {
+                    distance[next] = distance[curr] + 6;
+                    queue.offer(next);
+                }
+            }
+        }
+        
+        List<Integer> result = new ArrayList<>();
+        for (int i = 1; i <= n; i++) {
+            if (i != s) result.add(distance[i]);
+        }
+        
+        return result;
+    }
