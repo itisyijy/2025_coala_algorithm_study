@@ -18,7 +18,7 @@
         }
         //connect edge
         for (List<Integer> edge : edges) {
-            int u = edge.get(0);
+            int u = edge.get(0); //get명령어는 해당 번지의 값을 가져오는 명령어
             int v = edge.get(1);
             graph.get(u).add(v); 
             // Add vertex v to the adjacency list of vertex u
