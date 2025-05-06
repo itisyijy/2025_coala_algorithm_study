@@ -1,0 +1,15 @@
+public static int clique(int n, int m) {
+    // int node=n;
+    // int edge=m;
+    double turan;
+    int csize=n; //clique size
+    
+    for(int k=1; k<= n; k++){ //k=clique size-1
+        turan=(double)(k-1)*n*n/(2*k);
+        if (m <= turan){
+           csize=k;
+           break;
+        }
+    }
+    return csize;    
+}
