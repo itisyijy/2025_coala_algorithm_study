@@ -25,7 +25,7 @@
 |              | Minimum Spanning Tree | [Prim's (MST) : Special Subtree](https://www.hackerrank.com/challenges/primsmstsub/problem)                   |
 | 8주차        | MID-TERM              |                                                                                                               |
 | 9주차        | Brute-force Algorithm | [Clique](https://www.hackerrank.com/challenges/clique/problem)                                               |
-| 10주차       | Greedy Algorithm      |
+| 10주차       | Greedy Algorithm      | [Greedy](https://www.hackerrank.com/domains/algorithms?filters%5Bdifficulty%5D%5B%5D=easy&filters%5Bsubdomains%5D%5B%5D=greedy)
 | 11주차       | Divide and Conquer    |
 | 12주차       | Dynamic Programming   |
 
