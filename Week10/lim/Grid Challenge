@@ -1,0 +1,38 @@
+public static String gridChallenge(List<String> grid) {
+        // make nxn grid
+        int n=grid.size();
+        
+        
+        // if each row's length is different, FAIL!
+        int len=grid.get(0).length();
+        for (String row : grid) {
+            if (row.length() != len) return "NO"; 
+        }
+        
+        char[][] nxn= new char[n][len]; //square grid
+        // nxn <String[]>=new <>();
+        
+        for(int i=0;i<n;i++){
+        
+            // String[] BH= .split("");
+            char[] row=grid.get(i).toCharArray();
+            Arrays.sort(row); //rearrange alphabetical order
+            
+            // nxn.add(row);
+            for(int j=0; j<len; j++) nxn[i][j]=row[j];
+        }
+        
+        //check columns are ascending 
+        for(int j=0; j<len; j++){
+            
+            char prev=nxn[0][j];
+            
+            for(int i=1; i<n; i++){
+                char cur=nxn[i][j];
+                
+                if(prev>cur) return "NO";
+                prev=cur;
+            }
+        }
+        return "YES";
+    }
