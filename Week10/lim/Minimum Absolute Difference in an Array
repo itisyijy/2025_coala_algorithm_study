@@ -1,0 +1,15 @@
+public static int minimumAbsoluteDifference(List<Integer> arr) {
+    // Write your code here
+        List<Integer> list= arr;
+        list.sort((a,b)->a-b); //Ascending
+        
+        int min=list.get(1)-list.get(0);
+        int prevnum=list.get(1);
+        for(int i=2; i<list.size(); i++){
+            int curnum=list.get(i);
+            int difference=curnum-prevnum;
+            if(min>difference) min=difference;
+            prevnum=curnum;
+        }
+        return min;
+    }
