@@ -26,9 +26,11 @@
 | 8주차        | MID-TERM              |                                                                                                               |
 | 9주차        | Brute-force Algorithm | [Clique](https://www.hackerrank.com/challenges/clique/problem)                                               |
 | 10주차       | Greedy Algorithm      | [Minimum Absolute Difference in an Array](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem) 
-| 10주차       | Greedy Algorithm      | [Marc's Cakewalk](https://www.hackerrank.com/challenges/marcs-cakewalk/problem)
-| 10주차       | Greedy Algorithm      | [Grid Challenge](https://www.hackerrank.com/challenges/grid-challenge/problem) 
-| 11주차       | Divide and Conquer    |
+|        | Greedy Algorithm      | [Marc's Cakewalk](https://www.hackerrank.com/challenges/marcs-cakewalk/problem)
+|        | Greedy Algorithm      | [Grid Challenge](https://www.hackerrank.com/challenges/grid-challenge/problem) 
+| 11주차       | Divide and Conquer    | [The Power Sum](https://www.hackerrank.com/challenges/the-power-sum/problem?isFullScreen=true)
+|        | Divide and Conquer    | [Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem?isFullScreen=true)
+|        | Divide and Conquer    | [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem?isFullScreen=true)
 | 12주차       | Dynamic Programming   |
 
 # 특이사항
