@@ -1,0 +1,33 @@
+static class State {
+        int curr; // current num
+        int sum;  // accumulate sum
+        
+        // constructor 
+        State(int curr, int sum) {
+            this.curr = curr;
+            this.sum = sum;
+        }
+    }
+
+    public static int powerSum(int X, int N) { //DFS
+    
+        Stack<State> stack=new Stack<>();
+        /*A branch occurs: the number is included or not*/
+        int count=0; // combination count
+        stack.push(new State(1, count));
+        
+        while (!stack.isEmpty()) {
+            State s = stack.pop();
+            int power = (int)Math.pow(s.curr, N);
+            
+            if (s.sum + power == X) {
+                count++;
+            } else if (s.sum + power < X) {
+                stack.push(new State(s.curr + 1, s.sum)); // skip cur num
+                stack.push(new State(s.curr + 1, s.sum + power)); //include cur num
+            }
+            // s.sum + power > X -> do nothing (prune)
+        }
+        return count;
+    }
+    
