@@ -33,23 +33,3 @@
 |              | Divide and Conquer    | [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem?isFullScreen=true)                       |
 | 12주차       | Dynamic Programming   | [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem)                                             |
 |              | Dynamic Programming   | [Fibonacci Modified](https://www.hackerrank.com/challenges/fibonacci-modified/problem)                                           |
-
-# 특이사항
-
-## Week04
-
-## Week05
-
-## Week06
-
-## Week07
-
-## Week08
-
-## Week09
-
-## Week10
-
-## Week11
-
-## Week12
